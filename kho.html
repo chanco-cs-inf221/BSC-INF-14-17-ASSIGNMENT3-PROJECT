@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html language="en">
+<head>
+  <meta charset="utf-8">
+
+<title>my project-CALCULATOR</title>
+
+<link rel="stylesheet" type="text/css" href="index.css">
+
+<script src="code.js"type="text/javascript"language="javascript"></script>
+<p>
+    <h3> Simple Math Calculator Application</h3></p>
+    <h4> Developer's name - Kondwani Nang'ona </h4></p>                  
+    <a href="https://githuh.com/KndwaniNang1">github account</a>
+    <a href="https://facebook.com/kondwani komzy Banda">facebook account</a>
+    <a href="gmail.com/bsc-inf-14-17@cc.ac.mw">email addressl</a>
+    <h4>contacts:+2659979876/+265883103800</h4>
+
+</header>   
+
+</head>
+
+<body>
+   
+<table border="1" cellspace="1">
+            <tr>
+            <tr>
+                <td class="heading">
+                   Essential Math Calculator
+                    </td>
+            </tr>
+             
+
+                 <td>
+                     
+                         <!--displaying  the input field of the claculator-->
+                 <input type="text" id="input" placeholder="0" readonly="readonly">
+                 <input type="text" id="answer" readonly="readonly" style="color:green";> 
+                 </td>  
+                </tr>
+                <!--button section-->
+                <tr>
+                    <td>
+                        
+                         <!--creating adiv class to contain the variable on the calculator-->
+                        <div class="container">
+                        <input type="button"value="  CA  " onclick="clearscreen()"style="color:white; background:red;">
+                        <input type="button"value="  &#247;  " onclick="getOperand('/')">
+                        <input type="button"value="  *  " onclick="getOperand('*')">
+                        <input type="button"value="   &#8592;  " onclick="backspace()"style ="color:blue">
+                           <br>
+                       
+                         <!--displaying the numbers and the operators on the claculator-->
+                        <input type="button"value="  1  " onclick="getNumber(1)">
+                        <input type="button"value="  2  " onclick="getNumber(2)">
+                        <input type="button"value="  3  " onclick="getNumber(3)">
+                        <input type="button"value="   +   " onclick="getOperand('+')">
+                        <br>
+
+                        <input type="button"value="  4  " onclick="getNumber(4)">
+                        <input type="button"value="  5  " onclick="getNumber(5)">
+                        <input type="button"value="  6  " onclick="getNumber(6)">
+                        <input type="button"value="   -   " onclick="getOperand('-')">
+                        <br>
+                        
+                        <input type="button"value ="  7  " onclick="getNumber(7)">
+                        <input type="button"value ="  8  " onclick="getNumber(8)">
+                        <input type="button"value ="  9  " onclick="getNumber(9)">
+                        <input type="button"value="  ( ) " onclick="getOperand('*')">
+                         <br>
+                        
+                        <input type="button"value="  + / -  " onclick="getOperand('+/-')">
+                        <input type="button"value="  0  " onclick="getNumber(0)">
+                        <input type="button"value="  .  " onclick="getOperand('.')">
+                        <input type="button"value="  =  " onclick="compute()"style="width:60px; color:brown;
+                        backgrpund:green;">
+                        </div>
+                        <br>
+                    </td>
+                </tr>
+     </table>
+    
+     </body>
+     </html>
